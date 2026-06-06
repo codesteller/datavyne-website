@@ -85,7 +85,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 
 // ===== Scroll reveal =====
 const revealEls = document.querySelectorAll(
-  '.service-card, .about-card, .why-item, .stat-item'
+  '.service-card, .about-card, .why-item, .stat-item, .industry-card, .testimonial-card, .anno-group'
 );
 revealEls.forEach(el => el.classList.add('reveal'));
 
